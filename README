@@ -1,0 +1,28 @@
+To compile the project:
+    g++ -Wall -std=c++11 -o jeopardy *.cpp
+To run:
+    ./jeopardy
+
+The program takes in the html source code from a page for a game from 
+http://www.j-archive.com/
+The program requires all 30 clues to be present in the board for the
+Jeopardy! round, which is the first board on the webpage for a given
+game. In this folder, I put 4 downloaded webpages:
+
+http://www.j-archive.com/showgame.php?game_id=3106
+http://www.j-archive.com/showgame.php?game_id=2544
+http://www.j-archive.com/showgame.php?game_id=4842
+http://www.j-archive.com/showgame.php?game_id=3672
+
+which are game1.htm, game2.htm, game3.htm, and game4.htm respectively.
+
+When you run the program, it asks to input the filename of a webpage,
+for example: game1.htm
+
+Then the categories and point values are displayed and a list of 
+commands to control the game is displayed. The game is played by
+choosing clues of a given category and point value and inputting answers.
+The correctness of an answer is decided through string comparisons, so
+excluding case sensitivity, your answer must be exactly the same to the
+stored answer.
+
