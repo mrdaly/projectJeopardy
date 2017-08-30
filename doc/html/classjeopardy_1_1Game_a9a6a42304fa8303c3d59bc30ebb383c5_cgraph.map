@@ -1,6 +1,0 @@
-<map id="jeopardy::Game::answerClue" name="jeopardy::Game::answerClue">
-<area shape="rect" id="node2" href="$classjeopardy_1_1Clue.html#af69a973173e59bf15fc5c87fc6b0e215" title="Get the clue. " alt="" coords="270,5,431,30"/>
-<area shape="rect" id="node3" href="$classjeopardy_1_1Clue.html#abdaefb536b56643738b34bb1fe6add43" title="Returns whether this clue is answered. " alt="" coords="259,54,442,79"/>
-<area shape="rect" id="node4" href="$classjeopardy_1_1Clue.html#a4e33b2dfa2774148d24571247691e9b0" title="Change this clue to be answered. " alt="" coords="248,103,454,129"/>
-<area shape="rect" id="node5" href="$classjeopardy_1_1Clue.html#a4c513b89ff36fbbd5053450a51ed7327" title="Gets the answer to this clue. " alt="" coords="262,153,440,178"/>
-</map>
